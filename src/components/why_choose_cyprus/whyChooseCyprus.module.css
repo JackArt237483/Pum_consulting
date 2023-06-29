@@ -1,0 +1,138 @@
+.cuprus_choose{
+  min-width: 1515px;
+  height: 672px;
+  background: linear-gradient(180deg, #FEFC9E 0%, #FDBFA3 78.65%);
+}
+.cuprus_mini_block{
+  width: 1174px;
+  margin:  0 auto;
+  padding-top: 80px;
+}
+.cuprus_choose_text{
+  width: 494px;
+  margin: 0 auto;
+  color: #434364;
+}
+.cuprus_choose_text h3{
+  color: #434364;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.cuprus_choose_text p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.logo_info_one{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_info_one img{
+  width: 150px;
+  height: 150px;
+}
+.logo_info_one b{
+  color:#6D31D0;
+  margin-top: 34px;
+  font-size: 20px;
+  line-height: 32px;
+}
+.logo_info_one p{
+  color: #434364;
+  font-size: 16px;
+  margin-top: 0px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.cuprus_choose_block_with_info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+@media screen and (max-width:1000px){
+  .cuprus_choose{
+    min-width: 1020px;
+    height: 1066px;
+    background-color: #fff;
+  }
+  .cuprus_mini_block{
+    width:734px;
+  }
+  .cuprus_choose_block_with_info{
+    width: 748px;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+  }
+  .cuprus_choose_text {
+    width: 392px;
+  }
+  .cuprus_choose_text h3{
+    width: 425px;
+  }
+  .logo_info_one b{
+    width: 235px;
+  }
+  .logo_info_one p{
+    width: 257px;
+  }
+}
+@media screen and (max-width:768px){
+  .cuprus_choose{
+    min-width: 768px;
+    margin-top: 395px;
+    background-color: #fff;
+  }
+  .cuprus_mini_block{
+    width:554px;
+  }
+  .cuprus_choose_block_with_info{
+    width: 560px;
+    height: 625px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  .cuprus_choose_text {
+    width: 392px;
+  }
+  .cuprus_choose_text h3{
+    width: 425px;
+  }
+}
+@media screen and (max-width:480px){
+  .cuprus_choose{
+    min-width: 480px;
+    height: 1125px;
+    margin-top: 541px;
+    background-color: #fff;
+  }
+  .cuprus_mini_block{
+    width:450px;
+  }
+  .cuprus_choose_block_with_info{
+    width: 450px;
+    height: 725px;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  .cuprus_choose_text {
+    width: 392px;
+  }
+  .cuprus_choose_text h3{
+    width: 472px;
+    margin-left: -36px;
+  }
+  .logo_info_one b{
+    width: 187px;
+  }
+  .logo_info_one p{
+    width: 161px;
+  }
+  .logo_info_one{
+    width: 187px;
+  }
+}

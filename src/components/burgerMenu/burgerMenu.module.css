@@ -1,0 +1,73 @@
+@media screen and (max-width:1000px){
+  .burder_menu{
+    width: 200px;
+    height: 260px;
+    background-color:#ffff;
+  }
+  .burder_menu li {
+    list-style: none;
+    color:  #434364;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 18px;
+    text-transform: uppercase;
+  }
+  .burder_menu ul {
+    padding: 7px 0px;
+  }
+  .burger_location{
+    position: fixed;
+    top: 80px;
+    right: 79px;
+  }
+}
+@media screen and (max-width:768px){
+  .burder_menu{
+    width: 200px;
+    height: 260px;
+    background-color:#ffff;
+  }
+  .burder_menu li {
+    list-style: none;
+    color:  #434364;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 18px;
+    text-transform: uppercase;
+  }
+  .burder_menu ul {
+    padding: 7px 0px;
+  }
+  .burger_location{
+    position: fixed;
+    top: 80px;
+    right: 79px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .burder_menu{
+    width: 200px;
+    height: 260px;
+    background-color:#ffff;
+  }
+  .burder_menu li {
+    list-style: none;
+    color:  #434364;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 18px;
+    text-transform: uppercase;
+  }
+  .burder_menu ul {
+    padding: 7px 0px;
+  }
+  .burger_location{
+    position: fixed;
+    top: 80px;
+    right: 79px;
+  }
+}
