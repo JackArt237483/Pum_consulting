@@ -1,6 +1,7 @@
 // import Header from "../components/header/Header"
 // import SliderInfo from "../components/slider_info/SliderInfo"
 
+import AboutUs from "../components/aboutUs/AboutUs"
 import Map from "../components/map/Map"
 import MovingToParadise from "../components/movingtoparadise/MovingToParadise"
 import OurServies from "../components/our_servies/OurServies"
@@ -16,6 +17,7 @@ function Home(): JSX.Element {
       <MovingToParadise/>
       <WhyChooseCuprus/>
       <Map/>
+      <AboutUs/>
     </div>
   )
 }
