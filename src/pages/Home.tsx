@@ -7,6 +7,7 @@ import Map from "../components/map/Map"
 import MovingToParadise from "../components/movingtoparadise/MovingToParadise"
 import OurServies from "../components/our_servies/OurServies"
 import OurParnters from "../components/ourpartners/OurParnters"
+import Sliderfaq from "../components/slider_faq/Sliderfaq"
 import WhyChooseCuprus from "../components/why_choose_cyprus/WhyChooseCuprus"
 
 
@@ -23,6 +24,7 @@ function Home(): JSX.Element {
       <HowWeMakeItHappen/>
       <Contacts/>
       <OurParnters/>
+      <Sliderfaq/>
     </div>
   )
 }

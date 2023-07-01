@@ -1,0 +1,33 @@
+.my-wrapper-class{
+  width:400px;
+}
+.my-swiper-pagination{
+    width: 320px !important;
+    height: 100px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 0 auto !important; 
+  }
+  .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    border: 2px solid #ffff !important;
+    border-radius: 12px !important;
+  }
+  .swiper-pagination-bullet-active {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #fff !important;
+  }
+  @media screen and (max-width:1000px){
+    .my-wrapper-class{
+      width: 396px;
+      margin-top: 30px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .my-wrapper-class{
+      width: 382px;
+    }
+  }
