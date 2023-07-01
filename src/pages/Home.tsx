@@ -6,6 +6,7 @@ import HowWeMakeItHappen from "../components/howwemakeithappen/HowWeMakeItHappen
 import Map from "../components/map/Map"
 import MovingToParadise from "../components/movingtoparadise/MovingToParadise"
 import OurServies from "../components/our_servies/OurServies"
+import OurParnters from "../components/ourpartners/OurParnters"
 import WhyChooseCuprus from "../components/why_choose_cyprus/WhyChooseCuprus"
 
 
@@ -21,6 +22,7 @@ function Home(): JSX.Element {
       <AboutUs/>
       <HowWeMakeItHappen/>
       <Contacts/>
+      <OurParnters/>
     </div>
   )
 }
