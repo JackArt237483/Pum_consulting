@@ -1,0 +1,239 @@
+.contacts{
+  min-width: 1515px;
+  height: 1200px;
+  background: linear-gradient(180deg, rgba(109, 49, 208, 0.10) 0%, rgba(109, 49, 208, 0.21) 28.65%, rgba(109, 49, 208, 0.47) 53.13%, #6D31D0 100%);
+}
+.block_contacts{
+  width: 1180px;
+  height: 960px;
+  padding: 80px 130px;
+}
+.block_info_contacts_text h2{
+  color:#434364;
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.block_info_contacts_text div{
+  width: 380.001px; 
+  height: 3px;
+  background: #FDBFA3;
+  margin: 0 auto;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.message{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+.phone img {
+  width: 40px;
+  height: 40px;
+}
+.message img{
+  width: 40px;
+  height: 40px;
+}
+.phone b{
+  color: #6D31D0;
+  font-size: 20px;
+  line-height: 32px;
+}
+.message b{
+  color: #6D31D0;
+  font-size: 20px;
+  line-height: 32px;
+}
+.contancts_block_info{
+  margin-top: 60px;
+}
+.form{
+  width: 1180px;
+  height: 660px;
+  border-radius: 60px;
+  opacity: 0.5;
+  background: #FFDB80;
+  margin-top: 60px;
+  backdrop-filter: blur(250px);
+}
+.form h3{
+  color:  #2626eb;
+  font-size: 28px;
+  padding-top: 34px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.block_input_one input{
+  width: 280px;
+  height: 47px;
+  border-radius: 20px;
+  background: #FFF;
+  opacity: 0.5;
+  color: #434364;
+  font-size: 16px;
+  padding-left: 10px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.block_input_two input{
+  width: 280px;
+  height: 47px;
+  border-radius: 20px;
+  background: #FFF;
+  opacity: 0.5;
+  color: #434364;
+  font-size: 16px;
+  padding-left: 10px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.block_input_two {
+ margin-top: 14px;
+}
+.block_input_big{
+  margin-top: 14px;
+}
+.block_input_two .two{
+  margin-left: 8px;
+ }
+ .block_input_one .one{
+   margin-left: 8px;
+ }
+.block_input_big input{
+  width: 580px;
+  height: 200px;
+  border-radius: 20px;
+  background: #FFF;
+  font-size: 16px;
+  padding-left: 10px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.block_form {
+ width: 600px;
+ margin: 0 auto;
+}
+.block_chex_box p {
+  color: #434364;
+  font-size: 16px;
+  width: 515px;
+  margin-left: 24px;
+  text-align: start;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.block_chex_box span {
+  color: #6D31D0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-decoration-line: underline;
+}
+.block_chex_box input{
+  width:32px;
+  height: 32px;
+}
+.block_chex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block_form button{
+  display: inline-flex;
+  height: 60px;
+  padding: 14px 34px;
+  align-items: center;
+  color: #6D31D0;
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 120%;
+  border-radius: 30px;
+  background:  #FFDB80;
+}
+@media screen and (max-width:1000px){
+  .contacts{
+    min-width: 1020px;
+    height: 1160px;
+  }
+  .block_contacts{
+    width: 740px;
+    height: 960px;
+  }
+  .form{
+    width: 620px;
+    height: 660px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:768px){
+  .contacts{
+    min-width: 768px;
+    height: 1160px;
+  }
+  .block_contacts{
+    width: 508px;
+    height: 960px;
+  }
+  .form{
+    margin-left: -46px;
+  }
+}
+@media screen and (max-width:480px){
+  .contacts{
+    min-width: 480px;
+    height: 1190px;
+  }
+  .block_contacts{
+    width: 400px;
+    height: 1070px;
+    padding:40px;
+  }
+  .form{
+    width: 410px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  .block_input_two {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1px 10px;
+   width: 380px;
+   height: 70px;
+   }
+  .block_input_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    width: 380px;
+    height: 70px;
+  }
+  .block_input_two input{
+    width: 380px;
+    height: 70px;
+    }
+   .block_input_one input{
+     width: 380px;
+     height: 70px;
+   }
+  .block_input_big input{
+    width: 380px;
+    height: 200px;
+  }
+  .block_form{
+    width: 400px;
+  }
+  .block_input_two .two{
+    margin:5px 1px;
+   }
+   .block_input_one .one{
+    margin: 5px 1px;
+   }
+}
