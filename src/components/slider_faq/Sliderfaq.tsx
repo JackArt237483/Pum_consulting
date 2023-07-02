@@ -5,7 +5,7 @@ import 'swiper/css/bundle'
 import dataSlider from "../../styles/dataSlider.json"
 import "../../styles/Slider/sliderTwo.css"
 
-function Sliderfaq() {
+function Sliderfaq(): JSX.Element {
   return (
     <div className={classes.sliderfaq}>
       <div className={classes.sliderBlock}>

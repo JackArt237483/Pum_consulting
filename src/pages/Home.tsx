@@ -2,6 +2,7 @@
 // import SliderInfo from "../components/slider_info/SliderInfo"
 import AboutUs from "../components/aboutUs/AboutUs"
 import Contacts from "../components/contacts/Contacts"
+import Footer from "../components/footer/Footer"
 import HowWeMakeItHappen from "../components/howwemakeithappen/HowWeMakeItHappen"
 import Map from "../components/map/Map"
 import MovingToParadise from "../components/movingtoparadise/MovingToParadise"
@@ -25,6 +26,7 @@ function Home(): JSX.Element {
       <Contacts/>
       <OurParnters/>
       <Sliderfaq/>
+      <Footer/>
     </div>
   )
 }
